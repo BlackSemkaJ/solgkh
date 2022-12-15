@@ -157,19 +157,19 @@
                             </div>
                         </div>
                         <div class="header__col header__col--search">
-                            <div class="search-head-4 hide-print">
+                            <div class="search-head-4 hide-print" v-bind:class="{ active: isActive }">
                                 <div class="backdrop">
 
                                 </div>
                                 <div class="wrap">
-                                    <div class="btn-open">                                      
+                                    <div class="btn-open" v-on:click="isActive=!isActive">                                      
                                     </div>
                                     <form class="search-form" action="/search/" method="get">
                                         <div class="container">
                                             <div class="form-wrap">
-                                                <input class="btn-search" name="btn-search" type="submit" value="Найти">
+                                                <input  class="btn-search" name="btn-search" type="submit" value="Найти">
                                                 <input class="field" id="headSearch" type="search" placeholder="Поиск по сайту" name="q" maxlength="50" required="">
-                                                <div class="btn-close"></div>
+                                                <div class="btn-close" v-on:click="isActive=!isActive"></div>
                                             </div>
                                         </div>
                                     </form>
@@ -186,7 +186,14 @@
 <script>
     export default {
         name: "Header",
+        data(){
+            return{
+                isActive: true
+            }
+        }
     }
+    
+
 </script>
 
 <style scoped>
@@ -455,6 +462,16 @@
     .search-head-4 .btn-open:focus:before, .search-head-4 .btn-open:hover:before {
         opacity: .5;
     }
+    .search-head-4.active .search-form {
+        opacity: 1;
+        visibility: visible;
+    }
+    .search-head-4.active .btn-search {
+        opacity: 1;
+    }
+    .search-head-4.active .btn-close {
+        opacity: 1;
+    }
     .container {
         width: 100%;
         padding-right: 10px;
@@ -562,5 +579,15 @@
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
     }
+    .search-head-4 .btn-close:focus:after, .search-head-4 .btn-close:focus:before, .search-head-4 .btn-close:hover:after, .search-head-4 .btn-close:hover:before {
+        background-color: #9938a6;
+    }
+    button:focus, input:focus, select:focus, textarea:focus {
+        outline: 0;
+    }
+    @media (min-width: 1220px) {
+        .container{
+            max-width: 1190px;
+        }
+    }
 </style>>
-

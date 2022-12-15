@@ -10,6 +10,7 @@
         name: "app",
         components: {
             Header,
-        }
+        },
+        
     }
 </script>
