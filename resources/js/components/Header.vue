@@ -1,7 +1,7 @@
 <template>
    <header class="header">
         <div class="header__desktop">
-            <div class="conteiner">
+            <div class="container">
                 <div class="header__wrap">
                     <div class="header__row">
                         <div class="header__col header__col--logo">
@@ -231,9 +231,14 @@
     /* Лого --------------------------------------------- */
     .logo-desk .pic {
         display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .logo-desk .pic>a, .logo-desk .pic>span {
-        display: block;
+        /* display: block; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .logo-desk .pic img {
         max-width: 93px;
@@ -585,7 +590,8 @@
     button:focus, input:focus, select:focus, textarea:focus {
         outline: 0;
     }
-    @media (min-width: 1220px) {
+
+    @media (max-width: 1220px) {
         .container{
             max-width: 1190px;
         }
