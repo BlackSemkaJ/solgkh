@@ -188,7 +188,7 @@
         name: "Header",
         data(){
             return{
-                isActive: true
+                isActive: false
             }
         }
     }
