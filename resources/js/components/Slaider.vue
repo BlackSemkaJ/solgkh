@@ -30,7 +30,7 @@
                                 <div class="container">
                                     <div class="content">
                                         <div class="b-wrap">
-                                            <div class="h1 title">Мы рады приветствовать вас на сайте СГУПП «ЖКХ «Комплекс»!</div>
+                                            <div class="h1 title">Мы рады приветствовать <br> вас на сайте <br> СГУПП «ЖКХ «Комплекс»!</div>
                                             <div class="text">Здесь мы собрали полезную информацию для вас!</div>
                                             <div class="text-circle"></div>
                                         </div>
@@ -293,8 +293,10 @@ img {
     font-size: 43px;
     line-height: 1.25;
     text-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+    text-align: center;
 }
 .text {
+    text-align: center;
     display: block;
     margin: 0 0 30px;
     overflow: hidden;

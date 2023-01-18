@@ -102,7 +102,7 @@
                                     </li>
                                     <li class="item_1 has-submenu">
                                         <a href="/">
-                                            <span>Жилой фонд</span>
+                                            <span>Жилищный фонд</span>
                                             <i class="icon"></i>
                                         </a>
                                         <div class="submenu">

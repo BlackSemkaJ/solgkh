@@ -3,6 +3,7 @@
         <div class="container">
             <main class="g-content">
                 <Slaider></Slaider>
+                <CardLinks></CardLinks>
             </main>
         </div>
     </div>
@@ -10,10 +11,12 @@
 
 <script>
         import Slaider from '../components/Slaider.vue'
+        import CardLinks from './CardLinks.vue'
         export default {
             name: "Container",
             components: {
                 Slaider,
+                CardLinks,
             },
         
         }
