@@ -7,7 +7,7 @@
                         <div class="header__col header__col--logo">
                             <div class="logo-desk">
                                 <div class="pic">
-                                    <span><img src="/img/header/LOGO60s90.png" alt="ЖКХ Комлекс"></span>
+                                    <span><img src="/img/header/3.png" alt="ЖКХ Комлекс"></span>
                                 </div>
                             </div>
                         </div>
@@ -241,8 +241,10 @@
         justify-content: center;
     }
     .logo-desk .pic img {
-        max-width: 93px;
-        max-height: 58px;
+        /* max-width: 93px;
+        max-height: 58px; */
+        max-width: 150px;
+        max-height: 90px;
     }
 
     /* Меню ----------------------------------------------*/
@@ -284,7 +286,7 @@
         text-align: center;
         padding: 30px 21px 32px 20px;
         white-space: nowrap;
-        font-family: Roboto-Regular,Helvetica,Arial,sans-serif;
+        font-family: Roboto,Helvetica,Arial,sans-serif;
         font-weight: 400;
         font-style: normal;
         border-top: 3px solid transparent;
@@ -385,7 +387,7 @@
     }
     .submenu-3 [class*=item_]>a, .submenu-3 [class*=item_]>span {
         display: block;
-        font-family: Roboto-Regular,Helvetica,Arial,sans-serif;
+        font-family: Roboto,Helvetica,Arial,sans-serif;
         font-weight: 400;
         font-style: normal;
         color: #363636;
@@ -398,7 +400,7 @@
     }
     .submenu-3 [class*=item_]>a, .submenu-3 [class*=item_]>span {
         display: block;
-        font-family: Roboto-Regular,Helvetica,Arial,sans-serif;
+        font-family: Roboto,Helvetica,Arial,sans-serif;
         font-weight: 400;
         font-style: normal;
         color: #363636;

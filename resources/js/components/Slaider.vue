@@ -10,7 +10,7 @@
                                     <div class="video-bg js-video-bg">
                                         <div class="video-bg__poster-wrap js-poster-wrap">
                                             <picture class="video-bg__poster">
-                                                <img class="js-srcset" src="/img/slaider/slaid_1.jpg" alt="" data-src-xs="/img/slaider/slaid_1.jpg">
+                                                <img class="js-srcset" src="/img/slaider/slaid_7.jpg" alt="" data-src-xs="/img/slaider/slaid_1.jpg">
                                             </picture>
                                         </div>
                                     </div>
