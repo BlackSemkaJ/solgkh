@@ -5,6 +5,7 @@
                 <Slaider></Slaider>
                 <CardLinks></CardLinks>
                 <BalansSection></BalansSection>
+                <Digits-section></Digits-section>
             </main>
         </div>
     </div>
@@ -14,12 +15,14 @@
         import Slaider from '../components/Slaider.vue'
         import CardLinks from './CardLinks.vue'
         import BalansSection from './BalansSection.vue'
+import DigitsSection from './DigitsSection.vue'
         export default {
             name: "Container",
             components: {
                 Slaider,
                 CardLinks,
                 BalansSection,
+                DigitsSection,
             },
         
         }
