@@ -1,10 +1,58 @@
+@font-face {
+    font-family: "Roboto Light";
+    src: url("/public//fonts/Roboto-Light.eot?") format("eot"),
+        url("/public//fonts/Roboto-Light.woff") format("woff"),
+        url("/public//fonts/Roboto-Light.ttf") format("truetype"),
+        url("/public/fonts/Roboto-Light.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
-    font-family: Roboto Light,Helvetica,Arial,sans-serif;
+    font-family: Roboto Light, Helvetica, Arial, sans-serif;
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.5;
     color: #363636;
     text-align: left;
     background-color: #fff;
+}
+
+.g-main {
+    padding-top: 84.2031px;
+    min-height: 411.203px;
+}
+
+.container {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 1220px) {
+    .container {
+        max-width: 1190px;
+    }
+}
+
+.main .g-content,
+.no-padding-bottom .g-content {
+    padding-bottom: 0;
 }

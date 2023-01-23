@@ -222,7 +222,7 @@
     }
     .header .header__col--logo {
         flex-shrink: 0;
-        width: 21%;
+        width: 10%;
     }
     .header .header__col {
         min-width: .01%;
@@ -250,7 +250,7 @@
     /* Меню ----------------------------------------------*/
 
     .header .header__col--menu {
-        width: 49%;
+        width: 80%;
     }
     ul:not(.list-unstyled){
         list-style: none;
@@ -430,7 +430,7 @@
     }
     /* Поиск ----------------------------------------*/
     .header .header__col--search {
-       width: 4.8%;
+       width: 10%;
     }
     .search-head-4 {
         margin: 0 0 4px;
