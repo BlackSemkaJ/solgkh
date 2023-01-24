@@ -3,6 +3,8 @@ import { createRouter,createWebHashHistory } from "vue-router";
 import Conteiner from '../components/Conteiner.vue'
 import AllNew from '../components/new/AllNew.vue'
 import New from '../components/new/New.vue'
+import New2 from '../components/new/New2.vue'
+import Contacts from '../components/contacts/Contacts.vue'
 
 const routes = [
     {
@@ -19,6 +21,16 @@ const routes = [
         path: '/allnew/On-the-protection-of-the-rights-of-consumers-of-housing-and-communal-services',
         name: 'New',
         component: New
+    },
+    {
+        path: '/allnew/zasedanie-komissii-po-protivodejstviyu-korruptsii',
+        name: 'New2',
+        component: New2
+    },
+    {
+        path: '/Contacts',
+        name: 'Contacts',
+        component: Contacts
     },
 ]
 

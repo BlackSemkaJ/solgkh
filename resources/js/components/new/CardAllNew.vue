@@ -6,6 +6,33 @@
                     <div class="pic media-left-old js-width-trg" style="width: 200px;">
                         <a href="#" class="link js-hover-trg">
                             <i class="icon"></i>
+                            <img class="img" src="/img/new/073.jpg"
+                                alt="Заседание комиссии по противодействию коррупции"
+                                title="Заседание комиссии по противодействию коррупции">
+                        </a>
+                    </div>
+                    <div class="media-body-old">
+                        <div class="date">
+                            <time class="time" datetime="2022-12-30">24.01.2023</time>
+                        </div>
+                        <div class="title">
+                            <router-link class="js-hover-trg"
+                                to="/allnew/zasedanie-komissii-po-protivodejstviyu-korruptsii">Заседание комиссии по
+                                противодействию коррупции</router-link>
+                        </div>
+                        <div class="text">
+                            <p>Заседание комиссии по противодействию коррупции состоиться в кабинете директора СГУПП
+                                "ЖКХ"Комплекс" 02.02.2023 в 13:00.
+                                Подробнее...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item js-hover-wrap" id="bx_3218110189_3564">
+                <div class="media-old">
+                    <div class="pic media-left-old js-width-trg" style="width: 200px;">
+                        <a href="#" class="link js-hover-trg">
+                            <i class="icon"></i>
                             <img class="img" src="/img/new/security.png" alt="О защите прав потребителей ЖКУ"
                                 title="День матери">
                         </a>
@@ -67,7 +94,7 @@
                             <time class="time" datetime="2022-12-30">30.12.2022</time>
                         </div>
                         <div class="title">
-                            <a class="js-hover-trg" href="#">Корпоративная поездка в в Беловежскую пущу.</a>
+                            <a class="js-hover-trg" href="#">Корпоративная поездка в Беловежскую пущу.</a>
                         </div>
                         <div class="text">
                             <p>Этот год предприятия СГУПП «ЖКХ«Комплекс» направилась в поездку в Беловежскую пущу.
